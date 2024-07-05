@@ -1,0 +1,101 @@
+.bottomCardChild {
+  height: 80px;
+  width: 350px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  display: none;
+  max-width: 100%;
+}
+.socialIconsmastercardWc {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  object-fit: cover;
+  min-height: 48px;
+  z-index: 1;
+}
+.mastercard,
+.may6 {
+  margin: 0;
+}
+.may6 {
+  font-size: var(--font-size-smi);
+  line-height: 20px;
+  color: var(--color-steelblue);
+}
+.mastercardMay6Container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.mastercardDescription,
+.mastercardInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mastercardDescription {
+  height: 45.5px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs-5) 0 0;
+  box-sizing: border-box;
+}
+.mastercardInfo {
+  width: 146px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.div {
+  align-self: stretch;
+  width: 70px;
+  position: relative;
+  letter-spacing: 0.02px;
+  display: flex;
+  align-items: center;
+}
+.emptyContentThree {
+  align-self: stretch;
+  height: 44px;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--color-gray-800);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-4xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.bottomCard,
+.emptyContentThree,
+.emptyMastercard {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+}
+.emptyMastercard {
+  width: 90px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  font-size: var(--font-size-smi);
+}
+.bottomCard {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-100);
+  border: 0 solid var(--color-gray-700);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-800);
+  font-family: var(--font-poppins);
+}

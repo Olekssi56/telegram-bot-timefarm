@@ -1,0 +1,180 @@
+.bottomCardChild {
+  height: 80px;
+  width: 350px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.socialIconstelegam {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  min-height: 48px;
+  z-index: 1;
+}
+.may8,
+.starbucks {
+  margin: 0;
+}
+.may8 {
+  font-size: var(--font-size-smi);
+  line-height: 20px;
+  color: var(--color-steelblue);
+}
+.starbucksMay8Container {
+  position: relative;
+  letter-spacing: 0.02px;
+  font-weight: 500;
+  z-index: 1;
+}
+.starbucksMay82022Wrapper,
+.telegramContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.starbucksMay82022Wrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.telegramContainer {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.placeholder {
+  position: relative;
+  letter-spacing: 0.02px;
+  display: inline-block;
+  min-width: 49px;
+}
+.value,
+.valueWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.value {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--color-gray-800);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-lgi) var(--padding-3xs)
+    var(--padding-xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.valueWrapper {
+  width: 90px;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-smi);
+}
+.userInterfaceHouse {
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(4.125);
+}
+.wrapperUserInterfaceHouse {
+  height: 24px;
+  width: 24px;
+  bottom: -5px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottomCardItem,
+.businessBarGraph,
+.wrapperUserInterfaceHouse {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 3;
+}
+.businessBarGraph {
+  height: 24px;
+  width: 24px;
+  right: 102px;
+  bottom: -5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bottomCardItem {
+  height: 18px;
+  width: 58px;
+  bottom: 20px;
+  left: 4px;
+  filter: blur(40px);
+  border-radius: 50%;
+  background-color: var(--color-cadetblue-100);
+}
+.bottomCard,
+.bottomCardWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bottomCard {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-100);
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-xl);
+  position: relative;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.bottomCardWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.homeIndicator1 {
+  height: 5px;
+  width: 134px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-800);
+}
+.homeIndicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-xl) var(--padding-5xs);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.cardContainer,
+.mastercard {
+  align-self: stretch;
+  max-width: 100%;
+}
+.mastercard {
+  height: 35px;
+  position: relative;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-800);
+  font-family: var(--font-poppins);
+}

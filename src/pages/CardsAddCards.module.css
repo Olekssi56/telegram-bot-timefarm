@@ -1,0 +1,248 @@
+.time {
+  width: 54px;
+  position: relative;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.cellularConnectionIcon,
+.wifiIcon {
+  height: 10.7px;
+  width: 17px;
+  position: relative;
+}
+.wifiIcon {
+  height: 11px;
+  width: 15.3px;
+}
+.border,
+.capIcon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  top: 0;
+  right: 2.3px;
+  border-radius: 2.67px;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 22px;
+  height: 11.3px;
+  opacity: 0.35;
+}
+.capIcon {
+  top: 3.7px;
+  right: 0;
+  width: 1.3px;
+  height: 4px;
+}
+.capacity {
+  position: absolute;
+  top: 2px;
+  right: 4.3px;
+  border-radius: 1.33px;
+  background-color: var(--color-white);
+  width: 18px;
+  height: 7.3px;
+  z-index: 1;
+}
+.battery {
+  height: 11.3px;
+  width: 24.3px;
+  position: relative;
+}
+.connectionContainer,
+.iconsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconsContainer {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-8xs);
+}
+.connectionContainer {
+  width: 66.6px;
+  flex-direction: column;
+  padding: var(--padding-9xs-3) 0 0;
+  box-sizing: border-box;
+}
+.statusContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.innerTimeContainer {
+  align-self: stretch;
+  max-width: 100%;
+}
+.claimActions {
+  position: relative;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 118px;
+}
+.claimActionsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl);
+}
+.homeIndicator1 {
+  height: 5px;
+  width: 134px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-800);
+}
+.homeIndicator {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-xl) var(--padding-5xs);
+  box-sizing: border-box;
+  z-index: 4;
+}
+.mastercardContainer {
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+  max-width: 100%;
+}
+.frameParent,
+.timeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-gray-800);
+  font-family: var(--font-poppins);
+}
+.timeContainer {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  width: 100%;
+  align-items: flex-end;
+  gap: var(--gap-14xl);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-sf-pro-text);
+}
+.home {
+  position: absolute;
+  top: 807px;
+  left: 150px;
+  letter-spacing: 0.35px;
+  line-height: 28px;
+  display: none;
+}
+.bgIcon,
+.wrapperBg {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+.bgIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  left: 0;
+  transform: scale(1.727);
+}
+.wrapperBg {
+  left: 172px;
+  width: 293px;
+  height: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameChild,
+.userInterfaceHouse {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  width: 390px;
+  height: 90px;
+  z-index: 3;
+}
+.userInterfaceHouse {
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  object-fit: contain;
+  top: 0;
+  transform: scale(4.125);
+}
+.businessBarGraph,
+.wrapperUserInterfaceHouse {
+  position: absolute;
+  top: 123px;
+  width: 24px;
+  height: 24px;
+  z-index: 4;
+}
+.wrapperUserInterfaceHouse {
+  left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.businessBarGraph {
+  left: 244px;
+  overflow: hidden;
+}
+.frameItem {
+  position: absolute;
+  top: 104px;
+  left: 24px;
+  filter: blur(40px);
+  border-radius: 50%;
+  background-color: var(--color-cadetblue-100);
+  width: 58px;
+  height: 18px;
+  z-index: 4;
+}
+.wrapperBgParent {
+  position: absolute;
+  top: 660px;
+  left: 0;
+  width: 390px;
+  height: 184px;
+}
+.cardsaddCards {
+  width: 100%;
+  height: 844px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

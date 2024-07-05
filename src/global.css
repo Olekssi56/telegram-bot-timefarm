@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("/public/FontsFree-Net-SFProText-Semibold.ttf");
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-sf-pro-text: "SF Pro Text";
+  --font-poppins: Poppins;
+  --font-roboto: Roboto;
+  --font-sf-pro-display: "SF Pro Display";
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-smi: 13px;
+  --font-size-mid: 17px;
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+  --font-size-sm-3: 13.3px;
+  --font-size-xs-5: 11.5px;
+  --font-size-mid-7: 17.7px;
+  --font-size-xs-6: 11.6px;
+  --font-size-3xs: 10px;
+  --font-size-base-4: 15.4px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #19173d;
+  --color-gray-200: rgba(255, 255, 255, 0.6);
+  --color-gray-300: rgba(25, 23, 61, 0.5);
+  --color-gray-400: rgba(255, 255, 255, 0.5);
+  --color-gray-500: rgba(255, 255, 255, 0.3);
+  --color-gray-600: rgba(255, 255, 255, 0.2);
+  --color-gray-700: rgba(255, 255, 255, 0.1);
+  --color-gray-800: rgba(255, 255, 255, 0.87);
+  --color-cadetblue-100: #0da6c2;
+  --color-cadetblue-200: rgba(13, 166, 194, 0.3);
+  --color-steelblue: #7b78aa;
+  --color-black: #000;
+  --color-gainsboro-100: #e3e3ec;
+  --color-gainsboro-200: #ddd9d6;
+  --color-deepskyblue-100: #00d7ff;
+  --color-deepskyblue-200: rgba(0, 215, 255, 0.6);
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-8xs: 5px;
+  --gap-14xl: 33px;
+  --gap-3xs: 10px;
+  --gap-4xl: 23px;
+  --gap-9xl: 28px;
+  --gap-211xl: 230px;
+  --gap-137xl: 156px;
+  --gap-6xs: 7px;
+  --gap-11xs: 2px;
+  --gap-30xl-4: 49.4px;
+  --gap-16xl: 35px;
+  --gap-smi: 13px;
+  --gap-5xs: 8px;
+  --gap-20xl: 39px;
+  --gap-10xs: 3px;
+  --gap-8xs-6: 4.6px;
+  --gap-6xs-1: 6.1px;
+  --gap-10xs-7: 2.7px;
+  --gap-smi-6: 12.6px;
+  --gap-3xs-2: 9.2px;
+  --gap-8xs-3: 4.3px;
+  --gap-10xs-3: 2.3px;
+  --gap-xs-1: 11.1px;
+
+  /* Paddings */
+  --padding-sm: 14px;
+  --padding-5xl: 24px;
+  --padding-smi: 13px;
+  --padding-2xl: 21px;
+  --padding-9xs-3: 3.3px;
+  --padding-xl: 20px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-11xs: 2px;
+  --padding-3xs: 10px;
+  --padding-4xs: 9px;
+  --padding-10xs-5: 2.5px;
+  --padding-11xl: 30px;
+  --padding-lgi: 19px;
+  --padding-6xl: 25px;
+  --padding-2xs: 11px;
+  --padding-lg: 18px;
+  --padding-79xl: 98px;
+  --padding-13xl: 32px;
+  --padding-6xs: 7px;
+  --padding-22xl: 41px;
+  --padding-15xl: 34px;
+  --padding-10xs: 3px;
+  --padding-7xs: 6px;
+  --padding-xs: 12px;
+  --padding-271xl: 290px;
+  --padding-175xl: 194px;
+  --padding-3xl: 22px;
+  --padding-18xl: 37px;
+  --padding-mini: 15px;
+  --padding-59xl: 78px;
+  --padding-60xl: 79px;
+  --padding-25xl: 44px;
+  --padding-12xs: 1px;
+  --padding-38xl: 57px;
+  --padding-39xl: 58px;
+  --padding-23xl: 42px;
+  --padding-40xl: 59px;
+  --padding-49xl-6: 68.6px;
+  --padding-base-1: 15.1px;
+  --padding-12xl: 31px;
+  --padding-7xs-9: 5.9px;
+  --padding-8xs-4: 4.4px;
+  --padding-8xs-3: 4.3px;
+  --padding-40xl-7: 59.7px;
+  --padding-sm-1: 13.1px;
+  --padding-8xl: 27px;
+  --padding-7xs-1: 5.1px;
+  --padding-9xs-9: 3.9px;
+  --padding-8xs: 5px;
+
+  /* Border radiuses */
+  --br-11xs-3: 1.3px;
+  --br-10xs-7: 2.7px;
+  --br-31xl: 50px;
+  --br-81xl: 100px;
+  --br-xl: 20px;
+  --br-11xl: 30px;
+  --br-mid-7: 17.7px;
+  --br-3xs: 10px;
+  --br-8xs: 5px;
+  --br-mini: 15px;
+  --br-12xs: 1px;
+  --br-base-4: 15.4px;
+  --br-sm-4: 13.4px;
+}

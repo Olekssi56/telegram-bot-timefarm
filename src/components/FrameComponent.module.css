@@ -1,0 +1,153 @@
+.imagePlaceholderIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.photo202407041008541 {
+  width: 402px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  max-width: 258%;
+}
+.photo202407041008541Wrapper {
+  margin-top: -537px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-175xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  height: 60px;
+  width: 350px;
+  position: relative;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background: linear-gradient(
+    180deg,
+    rgba(58, 58, 58, 0.3),
+    rgba(196, 196, 196, 0)
+  );
+  display: none;
+  max-width: 100%;
+}
+.cameraBlackIcon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 2;
+}
+.imageWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.rectangleParent {
+  width: 350px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background: linear-gradient(
+    180deg,
+    rgba(58, 58, 58, 0.3),
+    rgba(196, 196, 196, 0)
+  );
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.imageWrapper {
+  margin-top: -580px;
+  width: 370px;
+  height: 350px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-271xl) 0 0;
+  gap: var(--gap-137xl);
+  max-width: 106%;
+}
+.buttonBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 60px;
+  right: -350px;
+  bottom: -60px;
+  left: 350px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background: linear-gradient(
+    180deg,
+    rgba(58, 58, 58, 0.3),
+    rgba(196, 196, 196, 0)
+  );
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.retweet {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 51px;
+}
+.btnPrimary {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-sm);
+  z-index: 2;
+}
+.buttonBackgroundParent,
+.imagePlaceholderParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-sm) var(--padding-6xs) var(--padding-3xs);
+  position: relative;
+  flex-shrink: 0;
+}
+.imagePlaceholderParent {
+  height: 350px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-271xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-211xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 450px) {
+  .imageWrapper {
+    height: 350px;
+  }
+}

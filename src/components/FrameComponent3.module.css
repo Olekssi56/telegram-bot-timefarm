@@ -1,0 +1,138 @@
+.time {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+}
+.timeWrapper {
+  width: 58px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.iconlylightarrowLeft2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.iconlylightarrowLeft2Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.statistics {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.3px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 94px;
+  white-space: nowrap;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-800);
+  font-family: var(--font-poppins);
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-14xl);
+}
+.cellularConnectionIcon,
+.wifiIcon {
+  height: 10.7px;
+  width: 17px;
+  position: relative;
+}
+.wifiIcon {
+  height: 11px;
+  width: 15.3px;
+}
+.border,
+.capIcon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  top: 0;
+  right: 2.3px;
+  border-radius: 2.67px;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 22px;
+  height: 11.3px;
+  opacity: 0.35;
+}
+.capIcon {
+  top: 3.7px;
+  right: 0;
+  width: 1.3px;
+  height: 4px;
+}
+.capacity {
+  position: absolute;
+  top: 2px;
+  right: 4.3px;
+  border-radius: 1.33px;
+  background-color: var(--color-white);
+  width: 18px;
+  height: 7.3px;
+  z-index: 1;
+}
+.battery {
+  height: 11.3px;
+  width: 24.3px;
+  position: relative;
+}
+.cellularConnectionParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cellularConnectionParent {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs-3) 0 0;
+}
+.frameParent,
+.statisticsInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.statisticsInner {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm) 0 var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-sf-pro-text);
+}

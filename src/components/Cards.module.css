@@ -1,0 +1,364 @@
+.base {
+  width: 270px;
+  height: 169.7px;
+  position: relative;
+  border-radius: 13.37px;
+  background: linear-gradient(121.67deg, #61de70, #0da6c2);
+  display: none;
+}
+.contactlessIndicatorIcon,
+.emvChipIcon {
+  position: absolute;
+  border-radius: 15.43px;
+  z-index: 1;
+}
+.emvChipIcon {
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 25.1px;
+  object-fit: cover;
+}
+.contactlessIndicatorIcon {
+  top: 3.8px;
+  left: 41px;
+  width: 13.9px;
+  height: 17.6px;
+}
+.emvChipParent {
+  height: 25.1px;
+  flex: 1;
+  position: relative;
+}
+.firstCardChipContainer {
+  width: 65.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.div,
+.div1,
+.div2,
+.div3 {
+  position: relative;
+  letter-spacing: -0.23px;
+  font-weight: 500;
+  display: inline-block;
+  text-shadow: 0.4px 0 0 rgba(0, 0, 0, 0.2), 0 0.4px 0 rgba(0, 0, 0, 0.2),
+    -0.4px 0 0 rgba(0, 0, 0, 0.2), 0-0.4px 0 rgba(0, 0, 0, 0.2);
+  min-width: 39px;
+  z-index: 1;
+}
+.cardNumber {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs-1);
+}
+.validThruIcon {
+  width: 10.5px;
+  height: 7.2px;
+  position: relative;
+  z-index: 1;
+}
+.validThruWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-9) 0 0;
+}
+.validDate {
+  position: relative;
+  letter-spacing: -0.23px;
+  font-weight: 500;
+  display: inline-block;
+  text-shadow: 0.4px 0 0 rgba(0, 0, 0, 0.2), 0 0.4px 0 rgba(0, 0, 0, 0.2),
+    -0.4px 0 0 rgba(0, 0, 0, 0.2), 0-0.4px 0 rgba(0, 0, 0, 0.2);
+  min-width: 30px;
+  z-index: 1;
+}
+.firstNameContainer,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: var(--gap-10xs-3);
+}
+.firstNameContainer {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.sandyChungus {
+  position: relative;
+  font-size: var(--font-size-xs-6);
+  letter-spacing: -0.23px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  display: inline-block;
+  text-shadow: 0.4px 0 0 rgba(0, 0, 0, 0.2), 0 0.4px 0 rgba(0, 0, 0, 0.2),
+    -0.4px 0 0 rgba(0, 0, 0, 0.2), 0-0.4px 0 rgba(0, 0, 0, 0.2);
+  min-width: 77px;
+  z-index: 1;
+}
+.firstCardName {
+  width: 96.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.paymentSystemLogo {
+  align-self: stretch;
+  height: 35px;
+  position: relative;
+  border-radius: 15.43px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.firstCardInfo,
+.firstCardLogo {
+  display: flex;
+  align-items: flex-start;
+}
+.firstCardLogo {
+  width: 56.6px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-1) 0 0;
+  box-sizing: border-box;
+}
+.firstCardInfo {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-3xs);
+}
+.creditCard1,
+.creditCard3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.creditCard1 {
+  flex: 1;
+  border-radius: 13.37px;
+  background: linear-gradient(121.67deg, #61de70, #0da6c2);
+  flex-direction: column;
+  padding: var(--padding-40xl-7) var(--padding-smi) var(--padding-sm-1)
+    var(--padding-8xl);
+  gap: var(--gap-8xs-3);
+}
+.creditCard3 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  border-radius: 15.43px;
+  width: 270px;
+  overflow: hidden;
+  flex-direction: row;
+  z-index: 1;
+}
+.base1 {
+  width: 310px;
+  height: 194.9px;
+  position: relative;
+  border-radius: 17.71px;
+  background: linear-gradient(103.68deg, #0da6c2, #0e39c6);
+  display: none;
+}
+.contactlessIndicatorIcon1,
+.emvChipIcon1 {
+  position: relative;
+  border-radius: 17.71px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.emvChipIcon1 {
+  height: 28.9px;
+  width: 37.9px;
+  object-fit: cover;
+}
+.contactlessIndicatorIcon1 {
+  width: 15.9px;
+  height: 20.2px;
+}
+.secondContactlessContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-3) 0 0;
+}
+.emvChipGroup,
+.secondCardChipContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emvChipGroup {
+  gap: var(--gap-3xs-2);
+}
+.secondCardChipContainer {
+  padding: 0 var(--padding-7xs);
+}
+.div4,
+.div5,
+.div6,
+.div7 {
+  position: relative;
+  letter-spacing: -0.27px;
+  font-weight: 500;
+  display: inline-block;
+  text-shadow: 0.4px 0 0 rgba(0, 0, 0, 0.2), 0 0.4px 0 rgba(0, 0, 0, 0.2),
+    -0.4px 0 0 rgba(0, 0, 0, 0.2), 0-0.4px 0 rgba(0, 0, 0, 0.2);
+  min-width: 45px;
+  z-index: 1;
+}
+.secondCardNumber {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi-6);
+}
+.validThruIcon1 {
+  width: 12px;
+  height: 8.3px;
+  position: relative;
+  z-index: 1;
+}
+.validThruContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-4) 0 0;
+}
+.secondValidDate {
+  position: relative;
+  letter-spacing: -0.27px;
+  font-weight: 500;
+  display: inline-block;
+  text-shadow: 0.4px 0 0 rgba(0, 0, 0, 0.2), 0 0.4px 0 rgba(0, 0, 0, 0.2),
+    -0.4px 0 0 rgba(0, 0, 0, 0.2), 0-0.4px 0 rgba(0, 0, 0, 0.2);
+  min-width: 35px;
+  z-index: 1;
+}
+.frameGroup,
+.secondNameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameGroup {
+  justify-content: flex-start;
+  gap: var(--gap-10xs-7);
+}
+.secondNameContainer {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.sandyChungus1 {
+  position: relative;
+  font-size: var(--font-size-sm-3);
+  letter-spacing: -0.27px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  display: inline-block;
+  text-shadow: 0.4px 0 0 rgba(0, 0, 0, 0.2), 0 0.4px 0 rgba(0, 0, 0, 0.2),
+    -0.4px 0 0 rgba(0, 0, 0, 0.2), 0-0.4px 0 rgba(0, 0, 0, 0.2);
+  min-width: 89px;
+  z-index: 1;
+}
+.secondCardName {
+  width: 111.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-1);
+}
+.paymentSystemLogo1 {
+  align-self: stretch;
+  height: 40.2px;
+  position: relative;
+  border-radius: 17.71px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.secondCardInfo,
+.secondCardLogo {
+  display: flex;
+  align-items: flex-start;
+}
+.secondCardLogo {
+  width: 65px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-9) 0 0;
+  box-sizing: border-box;
+}
+.secondCardInfo {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xs-5);
+}
+.creditCard11,
+.creditCard2 {
+  border-radius: 17.71px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.creditCard11 {
+  flex: 1;
+  background: linear-gradient(103.68deg, #0da6c2, #0e39c6);
+  flex-direction: column;
+  padding: var(--padding-49xl-6) var(--padding-sm) var(--padding-base-1)
+    var(--padding-12xl);
+  gap: var(--gap-8xs-6);
+}
+.creditCard2 {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  z-index: 2;
+  font-size: var(--font-size-mid-7);
+}
+.firstCardContainer {
+  height: 207.9px;
+  flex: 1;
+  position: relative;
+}
+.cards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 var(--padding-lgi);
+  text-align: left;
+  font-size: var(--font-size-base-4);
+  color: var(--color-gainsboro-200);
+  font-family: var(--font-poppins);
+}

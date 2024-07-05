@@ -1,0 +1,164 @@
+.time {
+  width: 54px;
+  position: relative;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.cellularConnectionIcon,
+.wifiIcon {
+  height: 10.7px;
+  width: 17px;
+  position: relative;
+  z-index: 1;
+}
+.wifiIcon {
+  height: 11px;
+  width: 15.3px;
+}
+.border,
+.capIcon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  top: 0;
+  right: 2.3px;
+  border-radius: 2.67px;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 22px;
+  height: 11.3px;
+  opacity: 0.35;
+}
+.capIcon {
+  top: 3.7px;
+  right: 0;
+  width: 1.3px;
+  height: 4px;
+}
+.capacity {
+  position: absolute;
+  top: 2px;
+  right: 4.3px;
+  border-radius: 1.33px;
+  background-color: var(--color-white);
+  width: 18px;
+  height: 7.3px;
+  z-index: 1;
+}
+.battery {
+  height: 11.3px;
+  width: 24.3px;
+  position: relative;
+  z-index: 1;
+}
+.connection,
+.connectionIcons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connectionIcons {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-8xs);
+}
+.connection {
+  width: 66.6px;
+  flex-direction: column;
+  padding: var(--padding-9xs-3) 0 0;
+  box-sizing: border-box;
+}
+.timeBackground,
+.timeParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.timeParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.timeBackground {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.welcomeBack {
+  margin: 0;
+  font-weight: 500;
+}
+.sandyChungus {
+  margin: 0;
+  font-size: var(--font-size-smi);
+  color: var(--color-steelblue);
+}
+.welcomeBackSandyContainer {
+  width: 154px;
+  position: relative;
+  letter-spacing: -0.3px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.hugeIcon,
+.menuMoreVertical {
+  position: absolute;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 1;
+}
+.hugeIcon {
+  left: 0;
+  object-fit: cover;
+}
+.menuMoreVertical {
+  left: 34px;
+}
+.more {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+}
+.statusRight,
+.userActions {
+  display: flex;
+  align-items: flex-start;
+}
+.userActions {
+  width: 58px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.statusRight {
+  width: 300px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  color: var(--color-gray-800);
+  font-family: var(--font-poppins);
+}
+.timeContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-sf-pro-text);
+}

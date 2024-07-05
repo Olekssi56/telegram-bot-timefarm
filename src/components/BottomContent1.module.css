@@ -1,0 +1,117 @@
+.bottomCardChild {
+  height: 80px;
+  width: 350px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  display: none;
+  max-width: 100%;
+}
+.socialIconsbuy {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 7px;
+  top: 12px;
+  transform: scale(3.246);
+}
+.wrapperSocialIconsbuy {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialBuy {
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.shareLink {
+  margin: 0;
+}
+.kPointsOf {
+  margin: 0;
+  font-size: var(--font-size-smi);
+  line-height: 20px;
+  color: var(--color-steelblue);
+}
+.shareLink10kContainer {
+  position: relative;
+  letter-spacing: 0.02px;
+  font-weight: 500;
+  z-index: 1;
+}
+.sharePointsLove {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.claim {
+  position: relative;
+  font-size: var(--font-size-smi);
+  letter-spacing: 0.02px;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-800);
+  text-align: left;
+  display: inline-block;
+  min-width: 39px;
+}
+.claimButtonContainer {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-800);
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-6xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.bottomCard,
+.bottomContent,
+.claimContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.claimContainer {
+  width: 90px;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.bottomCard,
+.bottomContent {
+  flex-direction: row;
+  max-width: 100%;
+}
+.bottomCard {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-100);
+  border: 0 solid var(--color-gray-700);
+  padding: var(--padding-base) var(--padding-xl);
+  gap: var(--gap-10xs);
+  z-index: 1;
+}
+.bottomContent {
+  align-self: stretch;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-800);
+  font-family: var(--font-poppins);
+}

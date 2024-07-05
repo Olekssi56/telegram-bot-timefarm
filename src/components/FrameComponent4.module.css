@@ -1,0 +1,177 @@
+.bottomCardChild {
+  height: 80px;
+  width: 350px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.socialIconsbuy {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 7px;
+  top: -5px;
+  transform: scale(2.956);
+}
+.wrapperSocialIconsbuy {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  min-height: 48px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mcdonalds,
+.pts {
+  margin: 0;
+}
+.pts {
+  font-size: var(--font-size-smi);
+  line-height: 20px;
+  color: var(--color-steelblue);
+}
+.mcdonalds14030Container {
+  position: relative;
+  letter-spacing: 0.02px;
+  font-weight: 500;
+  z-index: 1;
+}
+.graphDetails,
+.mcdonalds1403071500PtsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mcdonalds1403071500PtsWrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.graphDetails {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.claimed {
+  position: relative;
+  letter-spacing: 0.02px;
+  display: inline-block;
+  min-width: 56px;
+}
+.claimedContainer,
+.claimedContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.claimedContainer {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--color-gray-800);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base);
+  opacity: 0.5;
+  z-index: 1;
+}
+.claimedContainerWrapper {
+  width: 90px;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-smi);
+}
+.userInterfaceHouse {
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(4.125);
+}
+.wrapperUserInterfaceHouse {
+  height: 24px;
+  width: 24px;
+  bottom: 21px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.businessBarGraph,
+.graphPoint,
+.wrapperUserInterfaceHouse {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 3;
+}
+.businessBarGraph {
+  height: 24px;
+  width: 24px;
+  right: 102px;
+  bottom: 21px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.graphPoint {
+  height: 18px;
+  width: 58px;
+  top: 16px;
+  left: 4px;
+  filter: blur(40px);
+  border-radius: 50%;
+  background-color: var(--color-cadetblue-100);
+}
+.bottomCard {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-100);
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-20xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.homeIndicator1 {
+  height: 5px;
+  width: 134px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-800);
+}
+.homeIndicator {
+  position: absolute;
+  top: 61px;
+  left: 0;
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-xl) var(--padding-5xs);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.bottomCardParent {
+  align-self: stretch;
+  height: 95px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-800);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,24 @@
+<svg width="390" height="271" viewBox="0 0 390 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2_420)">
+<path d="M47 180C10.5 193.5 -10 224.5 -10 224.5L-14.5 311L435.5 296L394.5 87C394.5 87 386.5 51 342 51C310.5 51 324.5 2.34726 293.5 3.00001C260 3.70539 293.5 51 247 51C216.5 51 228.5 90.2988 198 92C174.562 93.3073 172.5 58 146.5 61C120.5 61 132.5 97.6818 95 104.5C62 110.5 86 171 47 180Z" fill="url(#paint0_linear_2_420)" stroke="#00D7FF" stroke-width="2" stroke-linecap="round"/>
+<mask id="mask0_2_420" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-16" y="1" width="453" height="312">
+<path d="M47 180C10.5 193.5 -10 224.5 -10 224.5L-14.5 311L435.5 296L394.5 87C394.5 87 386.5 51 342 51C310.5 51 324.5 2.34726 293.5 3.00001C260 3.7054 293.5 51 247 51C216.5 51 228.5 90.2988 198 92C174.562 93.3073 172.5 58 146.5 61C120.5 61 132.5 97.6818 95 104.5C62 110.5 86 171 47 180Z" fill="url(#paint1_linear_2_420)" stroke="#00D7FF" stroke-width="2" stroke-linecap="round"/>
+</mask>
+<g mask="url(#mask0_2_420)">
+<path d="M47 -20.001V240.001M97 -20.001V240.001M147 -20.001V240.001M197 -20.001V240.001M247 -20.001V240.001M297 -20.001V240.001M347 -20.001V240.001" stroke="white" stroke-opacity="0.5" stroke-dasharray="4 4" style="mix-blend-mode:overlay"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2_420" x1="195.686" y1="-5.17922" x2="195.87" y2="250.999" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0DA6C2"/>
+<stop offset="1" stop-color="#0EA6C2" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2_420" x1="195.686" y1="-5.17922" x2="195.87" y2="250.999" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0DA6C2"/>
+<stop offset="1" stop-color="#0EA6C2" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_2_420">
+<rect width="390" height="271" fill="white"/>
+</clipPath>
+</defs>
+</svg>

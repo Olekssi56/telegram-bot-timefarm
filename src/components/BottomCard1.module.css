@@ -1,0 +1,103 @@
+.bottomCardChild {
+  height: 80px;
+  width: 350px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  display: none;
+  max-width: 100%;
+}
+.bottomCardContainerChild {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  min-height: 48px;
+  z-index: 1;
+}
+.freelancer,
+.may6 {
+  margin: 0;
+}
+.may6 {
+  font-size: var(--font-size-smi);
+  line-height: 20px;
+  color: var(--color-steelblue);
+}
+.freelancerMay6Container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.bottomCardContainer,
+.freelancerContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.freelancerContainer {
+  height: 45.5px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs-5) 0 0;
+  box-sizing: border-box;
+}
+.bottomCardContainer {
+  width: 139px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.div {
+  align-self: stretch;
+  width: 72px;
+  position: relative;
+  letter-spacing: 0.02px;
+  display: flex;
+  align-items: center;
+}
+.bottomCard,
+.bottomCardInner,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.wrapper {
+  align-self: stretch;
+  height: 44px;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--color-gray-800);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-5xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.bottomCard,
+.bottomCardInner {
+  width: 90px;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  font-size: var(--font-size-smi);
+}
+.bottomCard {
+  position: absolute;
+  top: 908px;
+  left: 30px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-100);
+  border: 0 solid var(--color-gray-700);
+  width: 350px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-800);
+  font-family: var(--font-poppins);
+}
